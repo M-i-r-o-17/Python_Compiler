@@ -1,0 +1,10 @@
+C:\Users\vovam\source\repos\Python Compiler\bin\Debug\Python Compiler.exe.config
+C:\Users\vovam\source\repos\Python Compiler\bin\Debug\Python Compiler.exe
+C:\Users\vovam\source\repos\Python Compiler\bin\Debug\Python Compiler.pdb
+C:\Users\vovam\source\repos\Python Compiler\obj\Debug\Python Compiler.csprojAssemblyReference.cache
+C:\Users\vovam\source\repos\Python Compiler\obj\Debug\Python_Compiler.RootForm.resources
+C:\Users\vovam\source\repos\Python Compiler\obj\Debug\Python_Compiler.Properties.Resources.resources
+C:\Users\vovam\source\repos\Python Compiler\obj\Debug\Python Compiler.csproj.GenerateResource.cache
+C:\Users\vovam\source\repos\Python Compiler\obj\Debug\Python Compiler.csproj.CoreCompileInputs.cache
+C:\Users\vovam\source\repos\Python Compiler\obj\Debug\Python Compiler.exe
+C:\Users\vovam\source\repos\Python Compiler\obj\Debug\Python Compiler.pdb

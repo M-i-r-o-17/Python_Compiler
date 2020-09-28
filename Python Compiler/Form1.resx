@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Status.Name" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;Status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Status.Parent" xml:space="preserve">
+    <value>NotificationsGroup</value>
+  </data>
+  <data name="&gt;&gt;Status.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="NotificationsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NotificationsGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="NotificationsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NotificationsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NotificationsGroup.Text" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="&gt;&gt;NotificationsGroup.Name" xml:space="preserve">
+    <value>NotificationsGroup</value>
+  </data>
+  <data name="&gt;&gt;NotificationsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationsGroup.Parent" xml:space="preserve">
+    <value>MainGroup</value>
+  </data>
+  <data name="&gt;&gt;NotificationsGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Status.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 16</value>
+  </data>
+  <data name="Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="Status.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;Status.Name" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;Status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Status.Parent" xml:space="preserve">
+    <value>NotificationsGroup</value>
+  </data>
+  <data name="&gt;&gt;Status.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="OnOffConsole.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AddIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;CompileOneFile.Name" xml:space="preserve">
+    <value>CompileOneFile</value>
+  </data>
+  <data name="&gt;&gt;CompileOneFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompileOneFile.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;CompileOneFile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.Name" xml:space="preserve">
+    <value>OnOffConsole</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.Name" xml:space="preserve">
+    <value>LoadIcan</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.Name" xml:space="preserve">
+    <value>AddIcon</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="OtherSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 35</value>
+  </data>
+  <data name="OtherSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="OtherSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 85</value>
+  </data>
+  <data name="OtherSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>Дополнительные настройки</value>
+  </data>
+  <data name="&gt;&gt;OtherSettings.Name" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;OtherSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OtherSettings.Parent" xml:space="preserve">
+    <value>MainGroup</value>
+  </data>
+  <data name="&gt;&gt;OtherSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CompileFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 71</value>
+  </data>
+  <data name="CompileFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 23</value>
+  </data>
+  <data name="CompileFile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CompileFile.Text" xml:space="preserve">
+    <value>Скомпилировать</value>
+  </data>
+  <data name="&gt;&gt;CompileFile.Name" xml:space="preserve">
+    <value>CompileFile</value>
+  </data>
+  <data name="&gt;&gt;CompileFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompileFile.Parent" xml:space="preserve">
+    <value>Compiler</value>
+  </data>
+  <data name="&gt;&gt;CompileFile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OpenFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 45</value>
+  </data>
+  <data name="OpenFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 23</value>
+  </data>
+  <data name="OpenFile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OpenFile.Text" xml:space="preserve">
+    <value>Открыть файл</value>
+  </data>
+  <data name="&gt;&gt;OpenFile.Name" xml:space="preserve">
+    <value>OpenFile</value>
+  </data>
+  <data name="&gt;&gt;OpenFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenFile.Parent" xml:space="preserve">
+    <value>Compiler</value>
+  </data>
+  <data name="&gt;&gt;OpenFile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PathToFile.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PathToFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 19</value>
+  </data>
+  <data name="PathToFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 20</value>
+  </data>
+  <data name="PathToFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PathToFile.Name" xml:space="preserve">
+    <value>PathToFile</value>
+  </data>
+  <data name="&gt;&gt;PathToFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PathToFile.Parent" xml:space="preserve">
+    <value>Compiler</value>
+  </data>
+  <data name="&gt;&gt;PathToFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Compiler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="Compiler.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Compiler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 100</value>
+  </data>
+  <data name="Compiler.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Compiler.Text" xml:space="preserve">
+    <value>Компилятор</value>
+  </data>
+  <data name="&gt;&gt;Compiler.Name" xml:space="preserve">
+    <value>Compiler</value>
+  </data>
+  <data name="&gt;&gt;Compiler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Compiler.Parent" xml:space="preserve">
+    <value>MainGroup</value>
+  </data>
+  <data name="&gt;&gt;Compiler.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.Name" xml:space="preserve">
+    <value>SaveSettings</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.Parent" xml:space="preserve">
+    <value>LanguagePanel</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Language.Name" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;Language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Language.Parent" xml:space="preserve">
+    <value>LanguagePanel</value>
+  </data>
+  <data name="&gt;&gt;Language.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.Name" xml:space="preserve">
+    <value>ChangeLanguage</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.Parent" xml:space="preserve">
+    <value>LanguagePanel</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LanguagePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 220</value>
+  </data>
+  <data name="LanguagePanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="LanguagePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 70</value>
+  </data>
+  <data name="LanguagePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LanguagePanel.Text" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="&gt;&gt;LanguagePanel.Name" xml:space="preserve">
+    <value>LanguagePanel</value>
+  </data>
+  <data name="&gt;&gt;LanguagePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LanguagePanel.Parent" xml:space="preserve">
+    <value>MainGroup</value>
+  </data>
+  <data name="&gt;&gt;LanguagePanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MainGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="MainGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="MainGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 290</value>
+  </data>
+  <data name="MainGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MainGroup.Name" xml:space="preserve">
+    <value>MainGroup</value>
+  </data>
+  <data name="&gt;&gt;MainGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CompileOneFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompileOneFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 65</value>
+  </data>
+  <data name="CompileOneFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 17</value>
+  </data>
+  <data name="CompileOneFile.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CompileOneFile.Text" xml:space="preserve">
+    <value>Скомпилировать всё в один фаил</value>
+  </data>
+  <data name="&gt;&gt;CompileOneFile.Name" xml:space="preserve">
+    <value>CompileOneFile</value>
+  </data>
+  <data name="&gt;&gt;CompileOneFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompileOneFile.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;CompileOneFile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="OnOffConsole.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="OnOffConsole.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OnOffConsole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 42</value>
+  </data>
+  <data name="OnOffConsole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 17</value>
+  </data>
+  <data name="OnOffConsole.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="OnOffConsole.Text" xml:space="preserve">
+    <value>Включить | Отключить консоль</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.Name" xml:space="preserve">
+    <value>OnOffConsole</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;OnOffConsole.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoadIcan.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LoadIcan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="LoadIcan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="LoadIcan.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LoadIcan.Text" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.Name" xml:space="preserve">
+    <value>LoadIcan</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;LoadIcan.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="AddIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AddIcon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AddIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="AddIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="AddIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AddIcon.Text" xml:space="preserve">
+    <value>Добавить иконку</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.Name" xml:space="preserve">
+    <value>AddIcon</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.Parent" xml:space="preserve">
+    <value>OtherSettings</value>
+  </data>
+  <data name="&gt;&gt;AddIcon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SaveSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 42</value>
+  </data>
+  <data name="SaveSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 23</value>
+  </data>
+  <data name="SaveSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SaveSettings.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.Name" xml:space="preserve">
+    <value>SaveSettings</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.Parent" xml:space="preserve">
+    <value>LanguagePanel</value>
+  </data>
+  <data name="&gt;&gt;SaveSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 16</value>
+  </data>
+  <data name="Language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="Language.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Language.Name" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;Language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Language.Parent" xml:space="preserve">
+    <value>LanguagePanel</value>
+  </data>
+  <data name="&gt;&gt;Language.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChangeLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 16</value>
+  </data>
+  <data name="ChangeLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="ChangeLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ChangeLanguage.Text" xml:space="preserve">
+    <value>Сменить</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.Name" xml:space="preserve">
+    <value>ChangeLanguage</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.Parent" xml:space="preserve">
+    <value>LanguagePanel</value>
+  </data>
+  <data name="&gt;&gt;ChangeLanguage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="OpenIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="OpenScript.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>264, 301</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>280, 490</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Python Compiler</value>
+  </data>
+  <data name="&gt;&gt;OpenIcon.Name" xml:space="preserve">
+    <value>OpenIcon</value>
+  </data>
+  <data name="&gt;&gt;OpenIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenScript.Name" xml:space="preserve">
+    <value>OpenScript</value>
+  </data>
+  <data name="&gt;&gt;OpenScript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RootForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
